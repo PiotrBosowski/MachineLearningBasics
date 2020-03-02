@@ -1,0 +1,40 @@
+CONVOLUTIONAL NEURAL NETWORKS
+More reading about CNN: https://www.superdatascience.com/blogs/the-ultimate-guide-to-convolutional-neural-networks-cnn
+
+1. What is Convolutional Neural Network?
+2. Convolution Operation
+3. ReLU layer
+4. Pooling
+5. Flattening
+6. Full connection
+
+More reading: http://yann.lecun.com/exdb/publis/pdf/lecun-01a.pdf
+
+More reading: Introduction to Convolutional Neural Networks
+http://cs.nju.edu.cn/wujx/paper/CNN.pdf
+
+Step 1. Convolution Operation
+convolution is a process of applying filter (feature detectors) to the image in order to find certain features
+as a result weve got a set of feature maps
+
+Step 2. ReLU Layer
+Read more: https://arxiv.org/pdf/1609.04112.pdf Understanding Convolutional Neural Networks with a Mathematical Model
+                                 1502.01852.pdf
+
+Step 3. Max Pooling (downsampling)
+reducing the size of feature map by transforming it into pooled feature map, which contain less data about lack of feature
+splts feature map into f.e. 2x2 squares and takes max (Max Pooling) value (high value - feature detected), then combines those max values into pooled feature map
+
+More reading: http://ais.uni-bonn.de/papers/icann2010_maxpool.pdf
+
+Step 4. Flattening
+transforming 2d into 1d array
+
+Step 5. Full Connection
+in CNN we use fully connected hidden layers
+during back propagation not only synapses weight are being optimized, but also feature matrices
+
+example: https://www.cs.ryerson.ca/~aharley/vis/conv/flat.html
+
+Summary:
+More reading: https://adeshpande3.github.io/adeshpande3.github.io/The-9-Deep-Learning-Papers-You-Need-To-Know-About.html

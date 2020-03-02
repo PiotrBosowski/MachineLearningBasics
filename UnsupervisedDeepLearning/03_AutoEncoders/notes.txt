@@ -1,0 +1,8 @@
+Types of autoencoders:
+	Sparse Autoencoders
+	Denoising Autoencoders
+	Contractive Autoencoders
+	Stacked Autoencoders
+	Deep Autoencoders
+
+More reading: https://probablydance.com/ -> neural network are impressively good at compression

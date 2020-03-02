@@ -1,0 +1,27 @@
+Recurrent Neural Networks
+
+More reading: https://www.superdatascience.com/blogs/the-ultimate-guide-to-recurrent-neural-networks-rnn
+
+1. Idea behind Recurrent Neural Networks
+2. The Vanishing Gradient problem
+3. Long Short-Term Memory (LSTM) with variations
+4. Practical Intuition
+
+1. Recurrent Neural Networks:
+hidden layers neurons are connected to themselves (they got some kind of short-term memory)
+
+More reading: karpathy.github.io
+	      https://colah.github.io/posts/2015-08-Understanding-LSTMs/
+
+https://arstechnica.com/the-multiverse/2016/06/an-ai-wrote-this-movie-and-its-strangely-moving
+
+http://www.jmlr.org/proceedings/papers/v28/pascanu13.pdf
+
+2. The vanishing gradient problem
+
+3. LSTM
+More reading: http://bioinf.jku.at/publications/older/2604.pdf
+	      https://medium.com/@shiyan/understanding-lstm-and-its-diagrams-37e2f46f1714
+	      https://karpathy.github.io/2015/05/21/rnn-effectiveness/
+	      https://arxiv.org/pdf/1506.02078.pdf
+	      https://arxiv.org/pdf/1503.04069.pdf

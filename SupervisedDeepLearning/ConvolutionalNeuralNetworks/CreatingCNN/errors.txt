@@ -1,0 +1,4 @@
+https://github.com/ContinuumIO/anaconda-issues/issues/1735
+https://stackoverflow.com/questions/48225729/importerrorcould-not-import-pil-image-working-with-keras-ternsorflow/50775336
+https://github.com/antoniosehk/keras-tensorflow-windows-installation
+https://github.com/keras-team/keras/issues/13352

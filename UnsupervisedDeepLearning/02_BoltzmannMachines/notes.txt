@@ -1,0 +1,34 @@
+Boltzmann Machines
+
+PyTorch: https://pytorch.org/docs/master/
+
+Topics:
+	Energy-Based model (EBM)
+	Restricted Boltzmann Machine (RBM)
+	Contrastive Divergence (CD)
+	Deep Belief Networks (DBN)
+	Deep Boltzmann Machines (DBM)
+
+Boltzmann Machines arent directional - connections between nodes (neurons) are 2 ways
+
+deterministic/stochastic
+
+Boltzmann Machine allows to create a working model with limited data and then it recognize aberrative models
+
+Energy-Based Models - things (systems) are always trying to reach the state of lowest possible energy (you throw a stone - it falls, you heat it up - it cools down); the higher energy, the lower probability
+
+More reading: https://yann.lecun.com/exdb/publis/pdf/lecun-06.pdf
+	      http://www.imdb.com/title/tt0485947 //mr nobody
+
+Restricted Boltzmann Machine - hidden nodes arent connected with each other, same with visible nodes
+
+Contrastive
+More reading: https://www.cs.toronto.edu/~hinton/absps/fastnc.pdf
+	      http://www.robots.ox.ac.uk/~ojw/files/NotesOnCD.pdf
+
+Deep Belief Networks:
+	      http://www.iro.umontreal.ca/~lisa/pointeurs/BengioNips2006All.pdf
+	      http://www.gatsby.ucl.ac.uk/~dayan/papers/hdfn95.pdf
+
+Deep Boltzmann Machines:
+	      http://www.utstat.toronto.edu/~rsalakhu/papers/dbm.pdf

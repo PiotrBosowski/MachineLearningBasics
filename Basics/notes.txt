@@ -1,0 +1,93 @@
+Intro podcast: https://www.superdatascience.com/podcast/sds-047-expert-overview-deep-learning-models-supervised-unsupervised
+
+Neuron{
+	Trying to mimic real neurons behavior
+		Dendrites - receiver of a signal
+		Axon - sender of an answer
+		Synapse - ending of an axon, transmits output signal to another neuron/muscle etc.
+
+		Standardization
+		Normalization
+
+		More reading: yann.lecun.com/exdb/publis/pdf/lecun-98b.pdf
+
+		Weights of synapses - mechanism of self learning, when neuron adjusts, which signals are important and which aren't
+
+		In the neuron:
+			1. adding all input weighted values
+			2. applying activation function
+			3. outputing the result
+}
+	
+Activation Function{
+	4 different types:
+		1. Threshhold Function
+			If the value is less than zero, function passes 0
+			If the value is more than zero, function passes 1
+		
+		2. Sigmoid function
+		3. Rectifier function
+		4. Hyperbolic Tangent (similar to sigmoid)
+
+		More reading: http://jmlr.org/proceedings/papers/v15/glorotlla/glorotlla.pdf
+} 
+
+How do Neural Networks work?{
+	Input layer:
+		Neurons in hidden layer can specialize and look only at certains input
+		(Machine Learning vs Deep Learning: one layer vs many layers)
+}
+
+How do Neural Networks learn?{
+	Perceptron - single layer feedforward network (1957)
+	How does it learn:
+		1. calculating the output value
+		2. comparing the value to the actual value
+		3. calculating cost function value 1/2(y' - y)^2
+		4. weights got updated
+		cost is a sum of all partial costs: C = E(1/2 (y' - y)^2)
+	
+		whole process is called backpropagation
+		
+		More reading: "a list of cost functions used in neural networks alongside applications"
+}
+
+(Batch) Gradient Descent{
+	How do we adjust weights?
+		First option: brute force, not really recommended.
+		Second option: Gradient Descent
+			calculating the angle of cost function to minimize number of steps needed to find extremum minimum
+}
+
+Stochastic Gradient Descent{
+	Doesnt require cost function to be convex (convex - wypukła/wklęsła, jedno ekstremum)
+	Its all about adjusting weights after each record instead of after whole epoch
+	It is a stochastic method, so every try can bring different results
+	Batch Gradient Descent method is deterministic, so every try will give exactly same results after each epoch
+	Mini batch gradient descent method: connection of above two, running weight adjusting every n rows
+	
+	More reading: "A neural network in 13 lines of python pt. two gradient descent" by Andrew Trask
+				  http://neuralnetworksanddeeplearning.com/chap2.html
+}
+
+Backpropagation{
+	Sophisticated algorithm that adjusts all weights simultanously.
+	More reading: "http://neuralnetworksanddeeplearning.com/chap2.html"
+	
+	Updating weights after each row: Reinforcement Learning
+	Updating weights after whole batch: Batch Learning
+	
+		
+}
+
+
+Regression and classification
+	Read more: http://www.superdatascience.com/the-ultimate-guide-to-regression-classification/
+	Read more: http://www.superdatascience.com/the-ultimate-guide-to-regression-classification-powerpoint-presentation/
+
+	dependent_variable = constant + coefficient * independent_variable
+	
+Logistic regression
+
+
+Data preprocessing Template

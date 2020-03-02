@@ -1,0 +1,9 @@
+Softmax function - normalized exponension function - brings output values to be between 0 and 1 and to add up to 1.0
+
+Cross entropy function - another way of calculating network performance (instead of Mean Squarred Error)
+it is used to boost gradient descent to train CNN faster
+
+More reading: Geoffrey Hinton the softmax output function
+              A friendly introduction to cross entropy loss
+	      how to implement a neural network intermezzo 2
+

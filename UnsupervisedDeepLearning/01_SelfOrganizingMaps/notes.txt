@@ -1,0 +1,20 @@
+Unsupervised Deep Learning: Self Organising Maps
+
+Self Organising Map can help with reducing multidimensionality of input data f.e. to visualise them easier
+
+K-Means clustering - grupowanie danych metoda k-srednich
+	https://www.statystyka.az.pl/analiza-skupien/metoda-k-srednich.php
+
+	step 1: choose the number of clusters
+	step 2: select random points, initial centroids
+	step 3: assign each data point to the closest centroid
+	step 4: compute and place the new centroid of each cluster
+	step 5: reassign each data point to the new closest centroid
+		if any reassignment took place, go to STEP 4
+
+More reading: http://www.ai-junkie.com/ann/som/som1.html
+More reading: https://www.visualcinnamon.com/2013/07/self-organizing-maps-creating-hexagonal.html
+
+K-Means++ algorythm prevents from creating fake cluster recognition, improves the quality of the output
+	prevents"random initialization trap"
+
